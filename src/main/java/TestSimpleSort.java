@@ -4,5 +4,8 @@ public class TestSimpleSort {
         var test = new SimpleSort<Integer>(arr);
 
         test.insertionSort();
+        int[] x = test.getarr();
+        for(int i = 0; i < x.length; i++)
+            System.out.println(x[i]);
     }
 }
